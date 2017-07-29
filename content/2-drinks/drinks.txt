@@ -1,0 +1,25 @@
+Title: Drinks
+
+----
+
+Text: 
+
+----
+
+Seotitle: Drinks menu available at The King William IV, Totnes
+
+----
+
+Seodescription: Our drinks menu includes over 15 types of Gin, a selection of cocktails, house wines and a selection of lagers and beers. Great to pair with a meal.
+
+----
+
+Class: drinkspage
+
+----
+
+Heading: 
+
+----
+
+Gallery: 

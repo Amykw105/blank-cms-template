@@ -1,0 +1,32 @@
+title: Page
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
+    
+  intro:
+    label: Intro
+    type:  text
+
+  class:
+    label: Body class
+    type: text
+
+  SEOtitle:
+    label: SEO Title
+    type: text
+    width: 1/2
+    
+  SEOdescription:
+    label: SEO Description
+    type: text
+    width: 1/2
+    
+  gallery:
+    label: Gallery
+    type: images

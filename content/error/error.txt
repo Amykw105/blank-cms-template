@@ -1,0 +1,17 @@
+Title: Error 404
+
+----
+
+Intro: The page has not been found.
+
+----
+
+Text: Sorry about that, how about checking our (link: /menu text: menu) instead?
+
+----
+
+Seotitle: 404 - Page not found on The King William IV
+
+----
+
+Seodescription: Sorry, this page has not been found.

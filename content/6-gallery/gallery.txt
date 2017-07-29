@@ -1,0 +1,39 @@
+Title: Gallery
+
+----
+
+Text: We're very proud of our delicious homemade food and daily carvery, which you can enjoy in our beautiful courtyard in the summer or inside by a roaring fire in the winter.  Our selection of real ales goes well with our famous homemade pie, we have over 20 different gins to choose from and serve great pub grub all day, every day.
+
+----
+
+Class: gallery
+
+----
+
+Seotitle: Pictures of Dartmouth Inn, the best pub in Totnes
+
+----
+
+Seodescription: Pictures of our great food with locally sourced ingredients, selection of drinks and our beautiful courtyard surrounded by blooming flowers.
+
+----
+
+Gallery: 
+
+- afternoon-tea-with-prosecco.png
+- afternoon-tea-with-tea.png
+- cream-teas.png
+- daily-carvery-chalkboard.png
+- dartmouth-inn-instagram.png
+- delux-burger.png
+- fish-and-chips.png
+- gins.png
+- large-carvery.png
+- luxardo.png
+- outside-back.png
+- outside-flowers-tabletsd.png
+- pies.png
+- pimms-cider.png
+- set-up-carvery.png
+- somersby.png
+- whiteley-neill-gin.png

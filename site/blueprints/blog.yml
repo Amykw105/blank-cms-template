@@ -1,0 +1,32 @@
+title: Blog
+
+files: true
+
+pages:
+  template: article
+  sort: flip
+  num: date
+
+options: 
+  template: false
+  status: false
+
+icon: newspaper-o
+
+fields:
+  title:
+    label: Title
+    type: title
+    required: true
+    width: 3/4
+      
+
+  SEOtitle:
+    label: SEO Title
+    type: text
+    width: 1/2
+    
+  SEOdescription:
+    label: SEO Description
+    type: text
+    width: 1/2

@@ -1,0 +1,33 @@
+title: Article
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    
+  text:
+    label: Text
+    type: textarea
+    
+  SEOtitle:
+    label: SEO Title
+    type: text
+    width: 1/2
+    default: Month Year - What's On At The Dartmouth Inn, Totnes
+    
+  SEOdescription:
+    label: SEO Description
+    type: text
+    width: 1/2
+    default: Find out what's happening this month at The Dartmouth Inn, as well as our Weekly Quiz Nights, Monthly Folk Club, Sky Sports showings and brilliant food deals.

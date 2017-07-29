@@ -1,0 +1,83 @@
+.main-header{
+  background-color: white;
+  margin-top: -30px;
+  @media screen and (max-width: $tablet){
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // z-index: 9999;
+    // width: 100%;
+  }
+  .wrapper{
+    position: relative;
+  }
+}
+.contact-number {
+      position: absolute;
+    right: 0;
+    font-size: 30px;
+    color: #ffc700;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+    @media screen and (min-width: $tablet){
+      right: 50px;
+      top: 10px;
+      width: auto;
+      text-align: right;
+    }
+
+}
+.branding{
+      text-align: center;
+  @media screen and (min-width: $tablet){
+    float: left;
+    width: auto;
+  }
+  
+
+  a {
+    display: block;
+  }
+  img {
+    max-height: 70px;
+    padding: 7px;
+      max-width: 200px;
+      @media screen and (min-width: $mobile){
+        max-width: none;
+      }
+  }
+}
+
+.open-fixed {
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+    width: 100%;
+        margin-top: -35px;
+    .slicknav_menu{
+      z-index: 9999;
+    }
+    .slicknav_nav {
+        position: absolute;
+    }
+    .slicknav_menu{
+      height: 100%;
+    }
+}
+a.mobile-logo {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50%,0%);
+    width: 100%;
+    
+    img{
+      max-width: 100%;
+    }
+    
+    @media screen and (min-width: $tablet){
+      display: none;
+    }
+}

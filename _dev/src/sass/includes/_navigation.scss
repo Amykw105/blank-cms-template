@@ -1,0 +1,145 @@
+/** desktop navigation **/
+.slicknav_menu{
+      position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding-right: 20px;
+  // z-index: 9999;
+  background-color: $black;
+        
+    @media screen and (min-width: $tablet){
+      top: 20px;
+    }
+  @media screen and (min-width: $tablet){
+    display: none;
+  }
+  
+  a.slicknav_btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999999;
+  }
+  a{
+      color: white!important;  
+  }
+}
+.slicknav_menutxt{
+  display: none;
+}
+span.slicknav_icon-bar {
+    background-color: white;
+    height: 5px;
+    width: 40px;
+    display: block;
+    margin-bottom: 8px;
+}
+.slicknav_parent > a {
+    margin-bottom: 20px;
+    display: block;
+}
+.slicknav_nav .menu-item.image{
+  display: none;
+}
+.slicknav_nav{
+  position: absolute;
+    z-index: 9999;
+    width: 100%;
+    display: block;
+        height: 100%;
+    background-color: $black;
+    // height: 100%;
+    padding-left: 60px;
+      top: 80px;
+    .menu {
+      list-style: none;
+      padding: 0;
+      display: block;
+      width: 100%;
+  }
+  .menu-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    a{
+      font-size: 20px
+    }
+  }
+}
+.site-navigation{
+  display: none;
+  @media screen and (min-width: $tablet){
+        display: table;
+    width: 100%;
+    
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+        display: table-row;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  img {
+        max-width: 100%;
+  }
+  .image {
+      max-width: 300px;
+  }
+  li{
+    display: table-cell;
+    padding: 20px 0;
+    position: relative;
+    vertical-align: middle;
+    a{
+      padding: 10px;
+      margin: 10px 20px;
+      color: white;
+      display: block;
+    max-width: 100%;
+    height: 100%;
+      
+      &:hover{
+        color: $yellow;
+      }
+    }
+    &.is-active a{
+      color: $yellow;
+    }
+    &:hover > ul{
+	   display:block
+    }
+    .dropdown{
+    	display:none;
+    	position:absolute;
+    	top:100%;
+    	left:0;
+    	padding:0;
+      z-index: 9999;
+      background-color: $black;
+      width: 300px;
+      li{
+        display: block;
+        padding: 10px 10px 10px 20px;
+        float: none;
+        width: 100%;
+        
+        a{
+          margin: 0;
+          padding: 0;
+          color: white!important;
+          
+          &:hover{
+            color: $yellow!important;
+          }
+        }
+      }
+    }
+  }
+}

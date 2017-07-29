@@ -1,0 +1,56 @@
+Title: The King William IV
+
+----
+
+Intro: Open 10am - 11pm
+
+----
+
+Text: 
+
+----
+
+Heading: Pub, Restaurant & Accommodation
+
+----
+
+Calltoimage: 1-king-william-iv-pub-in-totnes.jpg
+
+----
+
+Calltoactionlabel: BOOK YOUR ROOM >
+
+----
+
+Calltolink: http://via.eviivo.com/en-GB/mywebsite/KingWilliamIVTQ9?simpleversion=true
+
+----
+
+Class: homepage
+
+----
+
+Seotitle: King William IV - Pub and Accommodation in the heart of Totnes
+
+----
+
+Seodescription: The place to eat and drink in Totnes. Choose from our extensive Gin and cocktail list, our delicious homemade food and enjoy a warm welcoming atmosphere.
+
+----
+
+Calltoaction: 
+
+----
+
+Gallery: 
+
+- accommodation-in-totnes-twin-room.jpg
+- accommodation-in-totnes-single-rooms.jpg
+- accommodation-in-totnes-double-room.jpg
+- king-william-dining-in-totnes.jpg
+- king-william-iv-places-to-eat-in-totnes.jpg
+- king-william-places-to-eat-in-totnes.jpg
+- king-william-pub-in-totnes.jpg
+- king-william-new-signage.jpg
+- king-william-seating-for-dining.jpg
+- king-william-bar-and-pub.jpg

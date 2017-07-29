@@ -1,0 +1,26 @@
+title: Projects
+
+
+pages:
+  template: project
+
+options: 
+  template: false  
+  status: false  
+  url: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+
+  SEOtitle:
+    label: SEO Title
+    type: text
+    width: 1/2
+    
+  SEOdescription:
+    label: SEO Description
+    type: text
+    width: 1/2
