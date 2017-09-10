@@ -20,13 +20,16 @@ fields:
     required: true
     width: 3/4
       
-
   SEOtitle:
-    label: SEO Title
-    type: text
-    width: 1/2
-    
+      label: SEO Title
+      type: text
+      width: 1/2
+      validate:
+        maxLength: 60
+      
   SEOdescription:
-    label: SEO Description
-    type: text
-    width: 1/2
+      label: SEO Description
+      type: text
+      width: 1/2
+      validate:
+        maxLength: 160

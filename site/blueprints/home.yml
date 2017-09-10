@@ -1,11 +1,19 @@
 title: Home
 
 pages: false
-
+options:
+  url: true
+  delete: false
+ 
 fields:
+  tab1:
+    label: General
+    type:  tabs
+    
   title:
     label: Title
     type:  text
+    help: Name of the page - does not appear on the site
     
   heading:
     label: Heading
@@ -27,20 +35,37 @@ fields:
     label: Call To Action Link
     type: text
 
-  gallery:
-    label: Gallery
-    type: images
+  tab2:
+    label: SEO
+    type:  tabs
     
-  class:
-    label: Body class
-    type: text
-
   SEOtitle:
     label: SEO Title
     type: text
     width: 1/2
+    validate:
+      maxLength: 60
     
   SEOdescription:
     label: SEO Description
     type: text
     width: 1/2
+    validate:
+      maxLength: 160  
+      
+  tab3:
+    label: Layout
+    type:  tabs
+    
+  bodyclass:
+    label: Body class
+    type: text
+
+  slideshow:
+    label: Header Height
+    type: select
+    default: full-height
+    options:
+      full-height: Full Height
+      mid-height: Mid Height
+      small: Small Height

@@ -1,4 +1,4 @@
-Title: King William IV, Totnes
+Title: Florists - Order flowers online
 
 ----
 
@@ -10,15 +10,15 @@ Description:
 
 ----
 
-Copyright: 
+Copyright: Florists
 
 ----
 
-Seotitle: King William IV - pub, restaurant and accommodation in Totnes
+Seotitle: Fashion | Women's dresses and skirts, formal and casual
 
 ----
 
-Seodescription: The best place to eat and drink in Totnes. We have a large selection of gins, cocktails, wines and beers, perfect to go with any dish on our main menu
+Seodescription: Fashion | Women's dresses and skirts, formal and casual
 
 ----
 
@@ -30,16 +30,32 @@ Bingvalidate:
 
 ----
 
-Twitterimage: king-william-twitter-card.png
+Twitterimage: 
 
 ----
 
-Pinterestimage: king-william-pinterest-card.png
+Pinterestimage: 
 
 ----
 
-Facebookimage: king-william-facebook-card.png
+Facebookimage: 
 
 ----
 
-Googleimage: king-william-google-card.png
+Googleimage: 
+
+----
+
+Facebookaccount: kingwilliamtotnes
+
+----
+
+Facebookaccesstoken: 1933495080224354
+
+----
+
+Facebooksecret: b0dc8279b8f3cc27462a981d8b11e263
+
+----
+
+Instagramaccount: 

@@ -1,19 +1,10 @@
 .main-header{
-  background-color: white;
-  margin-top: -30px;
-  @media screen and (max-width: $tablet){
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // z-index: 9999;
-    // width: 100%;
-  }
   .wrapper{
     position: relative;
   }
 }
 .contact-number {
-      position: absolute;
+    position: absolute;
     right: 0;
     font-size: 30px;
     color: #ffc700;

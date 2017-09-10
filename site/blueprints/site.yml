@@ -1,60 +1,59 @@
 title: Site
-
 pages: default
-
 fields:
+  tab1:
+    label: General
+    type:  tabs
   title:
     label: Title
     type:  text
-
-  author:
-    label: Author
-    type:  text
-
-  description:
-    label: Description
-    type:  textarea
-    
   copyright:
     label: Copyright
-    type:  textarea
-
+    type:  text
+    help: Your business name which will appear in the footer with copyright
+  tab2:
+    label: SEO
+    type:  tabs
   SEOtitle:
-    label: SEO Title
-    type: text
-    width: 1/2
-    
+      label: SEO Title
+      type: text
+      width: 1/2
+      validate:
+        maxLength: 60
+      
   SEOdescription:
-    label: SEO Description
-    type: text
-    width: 1/2
-
+      label: SEO Description
+      type: text
+      width: 1/2
+      validate:
+        maxLength: 160
+  
   googleValidate:
-    label: Google Validation
-    type:  text
-    width: 1/2
-    
+      label: Google Validation
+      type:  text
+      width: 1/2
+      
   bingValidate:
-    label: Bing Validation
-    type:  text
-    width: 1/2
-
+      label: Bing Validation
+      type:  text
+      width: 1/2
+  
   twitterImage:
-    label: Twitter Image
-    type: image
-    width: 1/2
-    
+      label: Twitter Image
+      type: image
+      width: 1/2
+      
   pinterestImage:
-    label: Pinterest Image
-    type: image
-    width: 1/2
-
+      label: Pinterest Image
+      type: image
+      width: 1/2
+  
   facebookImage:
-    label: Facebook Image
-    type: image
-    width: 1/2
-    
+      label: Facebook Image
+      type: image
+      width: 1/2
+      
   googleImage:
-    label: Google Image
-    type: image
-    width: 1/2
+      label: Google Image
+      type: image
+      width: 1/2

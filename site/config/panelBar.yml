@@ -1,0 +1,14 @@
+panel: [ ]
+add: [ ]
+edit: [ ]
+visibility: [ ]
+navigation: [ ]
+files: [ ]
+logout:
+  float: right
+user:
+  float: right
+pagespeed: [ ]
+index: [ ]
+loadtime: [ ]
+images: [ ]

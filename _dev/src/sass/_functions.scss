@@ -1,0 +1,17 @@
+// em to px
+// example: font-size: em(37px);
+@function em($px, $base: $default-font-size) {
+    @return ($px / $base) * 1em;
+}
+
+// Font-size em to px
+// example: @include font-size(12);
+@function calculateRem($size) {
+  $remSize: $size / 16;
+  @return $remSize * 1em;
+}
+
+@mixin font-size($size) {
+  font-size: $size +px;
+  font-size: calculateRem($size);
+} 

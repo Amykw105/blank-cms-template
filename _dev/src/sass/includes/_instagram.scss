@@ -1,0 +1,34 @@
+.instagram{
+    
+}
+.instagram ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    li{
+        width: 50vw;
+        height: 50vw;
+        float: left;
+        border: solid 2px $background;
+        @media screen and (min-width: $mobile){
+            width: 20vw;
+            height: 20vw;
+        }
+        @media screen and (min-width: $tablet){
+            width: 20vw;
+            height: 20vw;
+        }
+        @media screen and (min-width: $desktop){
+        }
+    }
+    img{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.instagram a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}

@@ -1,7 +1,8 @@
 // Libs
 
 // Settings
-@import 'includes/variables';
+@import 'variables';
+@import 'functions';
 
 // Custom
 @import 'includes/layouts';
@@ -10,3 +11,7 @@
 @import 'includes/content';
 @import 'includes/footer';
 @import 'includes/slick';
+@import 'includes/instagram'; 
+@import 'includes/facebook'; 
+@import 'includes/slideshow'; 
+@import 'includes/etsy'; 

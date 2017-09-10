@@ -3,25 +3,25 @@
   <div class="footer-menu">
     <nav class="site-nav">
       <ul class="navigation">
-        <li><a href="/" title="The King William IV Inn Homepage">Home</a></li>
-        <li><a href="/menu/" title="The King William IV Inn Menu">Menu</a></li>
-        <li><a href="/drinks/" title="The King William IV Inn Food Club">Drinks</a></li>
-        <li><a href="/accommodation/" title="The King William IV Inn Events">Accommodation</a></li>
-        <li><a href="/contact/" title="Contact us at The King William">Contact</a></li><br/>
-        <li><a target="_blank" href="https://facebook.com/kingwilliamtotnes">Facebook</a></li>
-        <li><a target="_blank" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186260-d7694036-Reviews-The_King_William_IV-Totnes_Devon_England.html">Tripadvisor</a></li>
-        <li><a target="_blank" href="https://instagram.com/kingwilliamtotnes">Instagram</a></li><br/>
-        <li><a class="phone-number" href="tel:01803866689" title="Call us on 01803 866689">01803 866689</a></li>
+      <?php $items = $pages->visible(); ?>
+      <?php foreach($items as $item): ?>
+        <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
+      <?php endforeach ?>
       </ul>
     </nav>
   </div>
   <div class="small-text">
-    <p>The King William IV &copy;2017</p>
+    <p><?= $site->copyright()->html() ?> &copy;<?php echo date("Y"); ?></p>
   </div>
 </div>
 </footer>
+<?php snippet('plugin.panelBar') ?>
   <script type="text/javascript" src="assets/js/libs.min.js"></script>
   <script type="text/javascript" src="assets/js/scripts.min.js"></script>
+  <script type="text/javascript" src="/assets/plugins/facebookfeed/js/facebookfeed.js"></script>
+  <script type="text/javascript" src="/assets/plugins/instagram/js/instagram.js"></script>
+  <script type="text/javascript" src="/assets/plugins/etsy/js/etsy.js"></script>
+
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,7 +29,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   
-    ga('create', 'UA-18454791-1', 'auto');
+    ga('create', '', 'auto');
     ga('send', 'pageview');
   
   </script>
