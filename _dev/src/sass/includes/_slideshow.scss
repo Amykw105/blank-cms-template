@@ -14,7 +14,7 @@
   min-height: 600px;
   height: 100vh;
 }
-.half-height.home-banner{
+.mid-height.home-banner{
   min-height: 500px;
   height: 60vh;
 }
@@ -29,6 +29,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.1);
+    z-index: -9;
 }
 .banner-content{
   position: absolute;

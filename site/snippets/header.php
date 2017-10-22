@@ -80,10 +80,14 @@
 <body class="<?= $page->class() ?>">
 
   <header class="main-header">
-    <div class="home-banner <?= $page->slideshow()->html() ?>"  style="background-image: url(<?= $page->calltoimage()->toFile()->url() ?>);">
+    <div class="home-banner <?php if($page->slideshow()): ?><?= $page->slideshow()->html() ?><?php endif ?>" 
+      <?php if($page->calltoimage()->toFile()): ?> style="background-image: url(<?= $page->calltoimage()->toFile()->url() ?>);"<?php endif ?>
+    >
       <div class="overlay"></div>
       <div class="clearfix"></div>
-      <a href="/" rel="home" class="mobile-logo"><img src="assets/images/white-King-William-IV-Hotel-Pub-Restaurant-Accommodation.png" alt="kjgh"/></a>
+      <?php if($site->logo()):?>
+      <a href="/" rel="home" class="mobile-logo"><img src="<?= $site->logo()->toFile()->url() ?>" alt="<?= $site->copyright() ?>"/></a>
+      <?php endif ?>
       <?php snippet('menu') ?>
       <div class="clearfix"></div>
       <?php if($page->class()->html() == 'homepage'): ?>

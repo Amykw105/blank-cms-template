@@ -1,26 +1,30 @@
 <footer class="site-footer">
 <div class="wrapper">
   <div class="footer-menu">
-    <nav class="site-nav">
-      <ul class="navigation">
+  <nav class="footer-navigation" role="navigation">
+    <ul class="menu">
       <?php $items = $pages->visible(); ?>
       <?php foreach($items as $item): ?>
         <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
       <?php endforeach ?>
-      </ul>
-    </nav>
+    </ul>
+  </nav>
   </div>
   <div class="small-text">
-    <p><?= $site->copyright()->html() ?> &copy;<?php echo date("Y"); ?></p>
+    <p><?= $site->copyright()->html() ?> &copy; 2017</p>
   </div>
 </div>
 </footer>
-<?php snippet('plugin.panelBar') ?>
   <script type="text/javascript" src="assets/js/libs.min.js"></script>
   <script type="text/javascript" src="assets/js/scripts.min.js"></script>
   <script type="text/javascript" src="/assets/plugins/facebookfeed/js/facebookfeed.js"></script>
   <script type="text/javascript" src="/assets/plugins/instagram/js/instagram.js"></script>
   <script type="text/javascript" src="/assets/plugins/etsy/js/etsy.js"></script>
+  <script>
+  if (document.documentElement.clientWidth < 700) {
+	  window.fitText( document.getElementById("responsive_headline"), 1.2 );
+  }
+  </script>
 
   <!-- Google Analytics -->
   <script>

@@ -7,23 +7,44 @@
     
     
       <div class="wrapper">
-        <center><h1><?= $page->intro()->html() ?></h1></center>
-        <div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness">
-            <div class="clearfix"></div>
-            <div class="third" itemprop="address">
-              <p><span itemprop="name">The King William IV</span>, <br/><span itemprop="streetAddress">45 Fore Street</span><br/><span itemprop="addressLocality">Totnes</span><br/><span itemprop="addressRegion">Devon</span><br/><span itemprop="postalCode">TQ9 5HN</span></p>
-            </div>
-            <div class="third">
-              <p><time itemprop="openingHours" datetime="Mon - Su 10:00-23:00">Mon - Sun 10am-11pm</time></p>
-              <p itemprop="telephone">01803 863252<br/>
-              <a href="mailto:kingwilliamtotnespub@gmail.com">kingwilliamtotnespub@gmail.com</a></p>
-            </div>
-            <div class="third">
-              <p class="socials">
-                <a href="https://facebook.com/kingwilliamtotnes">Facebook</a><br/>
-                <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186260-d7694036-Reviews-The_King_William_IV-Totnes_Devon_England.html">Tripadvisor</a><br/>
-                <a href="https://twitter.com/kingwilliamtotnes">Instagram</a><br/>
-            </div>
+        <center>
+          <h1><?= $page->intro()->html() ?></h1>
+          <?= $page->text()->html() ?>
+        </center>
+        <br/><br/>
+        <div class="contact-info">
+            <form method="post" class="contact-form">
+
+     <?php if($alert): ?>
+     <div class="<?php echo $class ?>">
+       <ul>
+         <?php foreach($alert as $message): ?>
+         <li><?php echo html($message) ?></li>
+         <?php endforeach ?>
+       </ul>
+     </div>
+     <?php endif ?>
+
+     <div class="field">
+       <label for="name">Name <abbr title="required">*</abbr></label>
+       <input type="text" id="name" name="name" placeholder="Your name">
+     </div>
+
+     <div class="field">
+       <label for="email">Email <abbr title="required">*</abbr></label>
+       <input type="email" id="email" name="email" required placeholder="Your email">
+     </div>
+
+     <div class="field">
+       <label for="text">Text <abbr title="required">*</abbr></label>
+       <textarea id="text" name="text" required placeholder="Tell me about your business"></textarea>
+     </div>
+
+     <input type="submit" name="submit" value="Submit" class="submit-button">
+
+   </form>
+   <div class="clearfix"></div>
+        <?php snippet('socials') ?>
             <div class="clearfix"></div>
         </div>
         </div>

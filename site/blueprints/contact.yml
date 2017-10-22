@@ -6,7 +6,11 @@ options:
   delete: false
   status: false
 
-fields: 
+fields:
+  tab1:
+    label: General
+    type:  tabs
+    
   title:
     label: Title
     type: title
@@ -14,14 +18,46 @@ fields:
   intro:
     label: Intro
     type: text
+  
+  text: 
+    label: Content
+    type: textarea
 
-
+  tab2:
+    label: SEO
+    type:  tabs
+    
   SEOtitle:
     label: SEO Title
     type: text
     width: 1/2
+    validate:
+      maxLength: 60
     
   SEOdescription:
     label: SEO Description
     type: text
     width: 1/2
+    validate:
+      maxLength: 160 
+    
+  tab3:
+    label: Layout
+    type:  tabs
+    
+  bodyclass:
+    label: Body class
+    type: text
+    
+  calltoimage:
+    label: Header Image
+    type: image
+
+  slideshow:
+    label: Header Height
+    type: select
+    default: full-height
+    options:
+      full-height: Full Height
+      mid-height: Mid Height
+      small: Small Height

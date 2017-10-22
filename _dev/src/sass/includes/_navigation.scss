@@ -5,9 +5,8 @@
     top: 0;
     width: 100%;
     text-align: left;
-    padding-right: 20px;
     // z-index: 9999;
-    background-color: $black;
+    background-color: white;
         
     @media screen and (min-width: $tablet){
       top: 20px;
@@ -23,7 +22,7 @@
     z-index: 999999;
   }
   a{
-      color: white!important;  
+      color: black!important;  
   }
 }
 .slicknav_menutxt{

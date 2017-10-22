@@ -1,0 +1,21 @@
+Title: Blog
+
+----
+
+Image: anton-mislawsky-160213.jpg
+
+----
+
+Slideshow: small
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Calltoimage: anton-mislawsky-160213.jpg

@@ -59,3 +59,31 @@ Facebooksecret: b0dc8279b8f3cc27462a981d8b11e263
 ----
 
 Instagramaccount: 
+
+----
+
+Facebook: https://facebook.com
+
+----
+
+Twitter: https://twitter.com
+
+----
+
+Instagram: https://instagram.com
+
+----
+
+Etsy: https://etsy.com
+
+----
+
+Pinterest: https://pinterest.com
+
+----
+
+Youtube: https://youtube.com
+
+----
+
+Logo: iconmonstr-favorite-7-240.png
